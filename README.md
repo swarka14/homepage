@@ -10,11 +10,11 @@
 
 #### LIFE & EDUCATION
 To live is to fight and to fight is to live.
-------
+
 
 #### LANGUAGES
 🇺🇸 ENGLISH ru РУссКИй ukr Українська.
-------
+
 
 #### SKILLS  
 Goood dancer and singer,you can check if you want)
