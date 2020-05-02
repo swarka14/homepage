@@ -12,6 +12,4 @@ In this simple project, I use for practice:
 - JavaScript;
 - GIT.
 
-Hocus-pocus!
-
 ---
