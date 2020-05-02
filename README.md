@@ -13,7 +13,7 @@ To live is to fight and to fight is to live.
 
 
 #### LANGUAGES
-🇺🇸 ENGLISH ru РУссКИй ukr Українська.
+ENGLISH ... РУссКИй ... Українська.
 
 
 #### SKILLS  
