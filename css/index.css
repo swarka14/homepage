@@ -39,7 +39,7 @@ main {
 
 .header-description:after {
     width: 200px;
-    background: #000 url(/img/logo-img.jpg) 40% 0 no-repeat;
+    background: #000 url(./img/logo-img.jpg) 40% 0 no-repeat;
 }
 
 .header-visual {
@@ -111,7 +111,7 @@ section.second_section strong {
     width: 270px;
     padding-top: 100px;
     border-radius: 100%;
-    background-image: url(/img/gop-stop.gif)
+    background-image: url(./img/gop-stop.gif)
 }
 
 .contacts li {
