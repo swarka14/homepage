@@ -1,0 +1,175 @@
+.header {
+    display: flex;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+main {
+    background-color: black;
+    color: white;
+
+}
+
+.header-description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-basis: 33%;
+    position: relative;
+    z-index: 1;
+}
+
+.header-description:before,
+.header-description:after {
+    content: '';
+    position: absolute;
+    right: -200px;
+    top: 0;
+    bottom: 0;
+    transform: skewX(30deg);
+}
+
+.header-description:before {
+    width: 100vw;
+    background: #000;
+}
+
+.header-description:after {
+    width: 200px;
+    background: #000 url(../img/logo-img.jpg) 40% 0 no-repeat;
+}
+
+.header-visual {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    width: 80%;
+}
+
+.banner {
+    object-fit: cover;
+    object-position: 100% 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+p {
+    color: white;
+}
+
+p.intro-words {
+    z-index: 1;
+    font-style: italic;
+    font-size: 30px;
+    max-width: 450px;
+    box-sizing: border-box;
+    bottom: 20px;
+}
+
+header+main {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+section {
+    padding: 1rem 1rem !important;
+    background-color: transparent;
+}
+
+section.second_section p {
+    font-size: 1rem;
+}
+
+section.second_section strong {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#special_row {
+    justify-content: space-between;
+}
+
+.page {
+    background-color: black;
+    box-shadow: none !important;
+    text-align: center;
+}
+
+.page img {
+    height: 90%;
+    width: 100%;
+    border-radius: 20%;
+
+}
+
+.gop-gif {
+    height: 280px;
+    width: 270px;
+    padding-top: 100px;
+    border-radius: 100%;
+    background-image: url(../img/gop-stop.gif)
+}
+
+.contacts li {
+    margin-bottom: 0.25rem;
+    margin-right: 1em;
+}
+
+.contacts li:before {
+    display: none;
+}
+
+.contacts li a {
+    color: white;
+    transition: color 0.2s ease-in-out;
+}
+
+.contacts li a.facebook:hover {
+    color: #3b5998;
+}
+
+.contacts li a.twitter:hover {
+    color: #3dcaee;
+}
+
+.contacts li a.instagram:hover {
+    color: #ec1354;
+}
+
+
+.contacts li a.mail:hover {
+    color: rgb(121, 89, 110);
+}
+
+.contacts li a.telegram:hover {
+    color: #0088cc;
+}
+
+.contacts li a.phone:hover {
+    color: dimgrey;
+}
+
+
+.contacts li a .icon {
+    fill: currentColor;
+    height: 1.1428rem;
+    vertical-align: text-bottom;
+}
+
+#achievements {
+    color: rgba(92, 88, 88, 0.712);
+    transition: text-shadow 0.3s linear;
+}
+
+.page img:hover {
+    box-shadow: 0 10px 50px 0 rgba(255, 254, 254, 0.411) !important;
+    transition: box-shadow 0.5s linear;
+}
+
+#achievements:hover {
+    text-shadow: 0px 8px 20px rgba(143, 138, 138, 0.562) !important;
+}
