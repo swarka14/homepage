@@ -138,7 +138,6 @@ section.second_section strong {
   color: #ec1354;
 }
 
-
 .contacts li a.mail:hover {
   color: rgb(121, 89, 110);
 }
@@ -150,7 +149,6 @@ section.second_section strong {
 .contacts li a.phone:hover {
   color: dimgrey;
 }
-
 
 .contacts li a .icon {
   fill: currentColor;
